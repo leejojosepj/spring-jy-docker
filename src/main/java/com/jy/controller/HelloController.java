@@ -11,4 +11,15 @@ public class HelloController {
 		return "Welcome to spring";
 	}
 
+
+	@GetMapping("/season2")
+	public String getMessage2() {
+		return "Welcome to spring2";
+	}
+
+	@GetMapping("/season3")
+	public String getMessage3() {
+		return "Welcome to spring3";
+	}
+
 }
